@@ -9,7 +9,13 @@ SECRET_KEY = 'django-insecure-z@0)v%2m)nk52!!hca+qcd*jrt9#!l3$la_e!jhxx+b00=s&r_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['real-estate-website-20qu.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [
+    'real-estate-website-20qu.onrender.com',
+    'site-imobiliar-kappa-seven.vercel.app',
+    '.vercel.app',
+    'localhost',
+    '127.0.0.1',
+]
 
 # Application definition
 
