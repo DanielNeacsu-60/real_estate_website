@@ -2,15 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "real_estate_website/wsgi.py",
-      "use": "@vercel/python",
-      "config": { "maxLambdaSize": "15mb" }
+      "src": "core/wsgi.py",
+      "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "real_estate_website/wsgi.py"
+      "dest": "core/wsgi.py"
     }
   ]
 }
